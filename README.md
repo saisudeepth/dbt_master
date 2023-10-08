@@ -1,19 +1,19 @@
-Welcome to the new dbt-postgres project!
+Welcome to my GitHub profile for the dbt-postgres project!
 
 ### Installation Steps
 
-  - Python: https://www.python.org/downloads/
-  - PostgreSQL: https://www.postgresql.org/download/
-  - DBT: https://docs.getdbt.com/docs/core/pip-install
+  - To install Python, visit: https://www.python.org/downloads/
+  - To install PostgreSQL, visit: https://www.postgresql.org/download/
+  - To install DBT, follow the steps outlined in the documentation: https://docs.getdbt.com/docs/core/pip-installl
       -- python3 -m venv dbt-env 
       -- dbt-env\Scripts\activate
       -- pip install dbt-postgres
-  - git clone https://github.com/saisudeepth/dbt_master.git
+  - After installing the above 3 please clone my dbt_master repository, use the command: git clone https://github.com/saisudeepth/dbt_master.git
 
 ### Checking the dbt-postgres connection
 
-Try running the following commands:
-- dbt debug(assuming you have copied the profiles.yml to your %USERPROFILE%/.dbt folder and edited the file as per your postgres configuration)
+To confirm the connection, try running the following commands::
+- dbt debug(assuming you have copied my profiles.yml to your %USERPROFILE%/.dbt folder and edited the file as per your postgresql configurations)
 
 ### Creating the tables under the respective schema
 
