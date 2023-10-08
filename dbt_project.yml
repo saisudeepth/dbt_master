@@ -32,6 +32,23 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbt_master:
+    +materialized: tables
+    # staging:
+    #   demart_core:
+    #     schema: demart_core
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    # example:
+    #   +materialized: view
+    # models:
+    #   +materialized: view
+
+seeds:
+  dbt_master:
+    demart_raw:
+      schema: demart_raw
+      tags: 
+        - demart
+    map_raw:
+      schema: map_raw
+      tags: 
+        - map
